@@ -5,7 +5,7 @@ const template = document.getElementById("template-tasks").content // siempre re
 const fragment = document.createDocumentFragment()
 let tasks = {}
 
-document.addEventListener("DOMcContentLoaded", () => {
+document.addEventListener("DOMContentLoaded", () => {
     if (localStorage.getItem("tasks")) {
         tasks = JSON.parse(localStorage.getItem("tasks"))
     }
